@@ -1,7 +1,7 @@
 # LottoChecker
 
 LottoChecker is Console Application and API used for Web Scraping Lotto Page to get lottery winning numbers between chosen dates.
-I created API which includes scraper using Selenium and Firefox Driver.
+Scraper uses Selenium and Firefox Driver.
 
 ## Usage and implementation
 
