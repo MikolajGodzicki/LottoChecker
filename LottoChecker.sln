@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoChecker", "LottoChecker\LottoChecker.csproj", "{CC9684B8-65ED-4C90-94F0-2D991CD9D0C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoChecker", "LottoChecker\LottoChecker.csproj", "{CC9684B8-65ED-4C90-94F0-2D991CD9D0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoAPI", "LottoAPI\LottoAPI.csproj", "{ED61F512-5FA0-4CF8-91F1-45F49830CC76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CC9684B8-65ED-4C90-94F0-2D991CD9D0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC9684B8-65ED-4C90-94F0-2D991CD9D0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC9684B8-65ED-4C90-94F0-2D991CD9D0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED61F512-5FA0-4CF8-91F1-45F49830CC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED61F512-5FA0-4CF8-91F1-45F49830CC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED61F512-5FA0-4CF8-91F1-45F49830CC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED61F512-5FA0-4CF8-91F1-45F49830CC76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

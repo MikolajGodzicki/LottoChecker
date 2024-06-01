@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LottoChecker {
-    internal enum LotteryType {
+namespace LottoAPI {
+    public enum LotteryType {
         Lotto,
         LottoPlus
     }
