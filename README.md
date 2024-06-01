@@ -1,6 +1,7 @@
 # LottoChecker
 
-LottoChecker is Console Application used for Web Scraping Lotto Page to get 10 latest lottery winning numbers.
+LottoChecker is Console Application used for Web Scraping Lotto Page to get lottery winning numbers between chosen dates.
+I created API which includes scraper using Selenium and Firefox Driver.
 
 ## Usage and implementation
 
@@ -14,9 +15,9 @@ internal enum LotteryType {
 }
 ```
 
-You need to pass this type in GetLotteries method.
+You need to pass this type in GetLotteries method and dates between you want to search [2024-01-01, 2024-02-02].
 ```csharp
-IEnumerable<Lottery> GetLotteries(LotteryType lotteryType)
+IEnumerable<Lottery> GetLotteries(LotteryType lotteryType, IEnumerable<DateTime> dates)
 ```
 
 It returns lottery Model
